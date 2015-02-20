@@ -19,6 +19,6 @@
   <%= f.submit %>
 </p>
 
-<%= link_to "Delete this pup", "/puppies/#{@puppy.id}", method:"Delete"%>
+<%= link_to "Delete this pup", "/puppies/#{@puppy.id}", method:"Delete", data:{ confirm: "Are you sure?!?!"}%>
 <%end %>
 
